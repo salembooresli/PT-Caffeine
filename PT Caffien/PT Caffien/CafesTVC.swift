@@ -1,5 +1,5 @@
 //
-//  CoffeesTVC.swift
+//  CafesTVC.swift
 //  PT Caffien
 //
 //  Created by Salem Booresli on 10/24/20.
@@ -7,8 +7,9 @@
 
 import UIKit
 
-class CoffeesTVC: UITableViewController {
+class CafesTVC: UITableViewController {
 
+    @IBOutlet weak var celllabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,25 +22,23 @@ class CoffeesTVC: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return Cafes.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CafesCell", for: indexPath) as! CafesTVcell
+        cell.CafesCellLabel.text = Cafes[indexPath.row]
+        cell.Cafesimage.image = UIImage(named: Cafes[indexPath.row])
+       
         // Configure the cell...
-
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

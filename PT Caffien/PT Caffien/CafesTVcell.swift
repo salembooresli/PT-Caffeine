@@ -1,5 +1,5 @@
 //
-//  CoffeesTVcell.swift
+//  CafesTVcell.swift
 //  PT Caffien
 //
 //  Created by Salem Booresli on 10/24/20.
@@ -7,8 +7,11 @@
 
 import UIKit
 
-class CoffeesTVcell: UITableViewCell {
+class CafesTVcell: UITableViewCell {
 
+    @IBOutlet weak var CafesCellLabel: UILabel!
+    
+    @IBOutlet weak var Cafesimage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
