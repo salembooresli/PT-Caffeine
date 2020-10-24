@@ -11,6 +11,13 @@ class AddTeamVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        struct Team {
+            let Boss: String!
+            let TeamMember: String!
+            let TeamMember2: String!
+            let TeamExperties: String!
+        }
 
         // Do any additional setup after loading the view.
     }

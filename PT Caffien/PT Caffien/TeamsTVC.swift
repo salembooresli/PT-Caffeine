@@ -21,25 +21,22 @@ class TeamsTVC: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return Teams.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TeamsCell", for: indexPath)
 
         // Configure the cell...
-
+        cell.textLabel?.text =  Teams[indexPath.row]
+        cell.textLabel?.textColor = #colorLiteral(red: 1, green: 0.4603338242, blue: 0, alpha: 1)
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

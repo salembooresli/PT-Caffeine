@@ -9,4 +9,9 @@ import Foundation
 var Cafes = ["starbucks","costa","Arabica","LPD","Toby's","caribu","coffee bean","CAF","Dose","jumo"]
 
 
-var Evants = ["HSseinors","coffeeFreaks x LPD","rout66 x jumo","salem"]
+var Evants = ["kuwaitiCaffien x TheCoffeBean","HSseinors x Arabica","coffeeFreaks x LPD","Rout66 x jumo","Chains x Dose"]
+
+
+var Teams = ["kuwaitiCaffien","HSseinors","coffeeFreaks","Rout66","Chains"]
+
+
