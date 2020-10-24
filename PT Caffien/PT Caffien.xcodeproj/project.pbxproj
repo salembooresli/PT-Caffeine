@@ -13,6 +13,14 @@
 		D1043CA2253F7728000001AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1043CA0253F7728000001AC /* Main.storyboard */; };
 		D1043CA4253F772A000001AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1043CA3253F772A000001AC /* Assets.xcassets */; };
 		D1043CA7253F772A000001AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1043CA5253F772A000001AC /* LaunchScreen.storyboard */; };
+		D1F38C082543B2C900FEF4A8 /* TBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C072543B2C900FEF4A8 /* TBC.swift */; };
+		D1F38C0D2543B36000FEF4A8 /* CoffeesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C0C2543B36000FEF4A8 /* CoffeesTVC.swift */; };
+		D1F38C102543B3AC00FEF4A8 /* EvantsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C0F2543B3AC00FEF4A8 /* EvantsTVC.swift */; };
+		D1F38C142543B3CD00FEF4A8 /* TeamsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C132543B3CD00FEF4A8 /* TeamsTVC.swift */; };
+		D1F38C192543B46600FEF4A8 /* AddTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C182543B46600FEF4A8 /* AddTeamVC.swift */; };
+		D1F38C1D2543B87100FEF4A8 /* CoffeesTVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C1C2543B87100FEF4A8 /* CoffeesTVcell.swift */; };
+		D1F38C202543B89F00FEF4A8 /* EvantsTVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C1F2543B89F00FEF4A8 /* EvantsTVcell.swift */; };
+		D1F38C232543B8BC00FEF4A8 /* TeamsTVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F38C222543B8BC00FEF4A8 /* TeamsTVcell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		D1043CA3253F772A000001AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1043CA6253F772A000001AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1043CA8253F772A000001AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F38C072543B2C900FEF4A8 /* TBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBC.swift; sourceTree = "<group>"; };
+		D1F38C0C2543B36000FEF4A8 /* CoffeesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesTVC.swift; sourceTree = "<group>"; };
+		D1F38C0F2543B3AC00FEF4A8 /* EvantsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvantsTVC.swift; sourceTree = "<group>"; };
+		D1F38C132543B3CD00FEF4A8 /* TeamsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTVC.swift; sourceTree = "<group>"; };
+		D1F38C182543B46600FEF4A8 /* AddTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamVC.swift; sourceTree = "<group>"; };
+		D1F38C1C2543B87100FEF4A8 /* CoffeesTVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesTVcell.swift; sourceTree = "<group>"; };
+		D1F38C1F2543B89F00FEF4A8 /* EvantsTVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvantsTVcell.swift; sourceTree = "<group>"; };
+		D1F38C222543B8BC00FEF4A8 /* TeamsTVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTVcell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				D1043C9C253F7728000001AC /* SceneDelegate.swift */,
 				D1043C9E253F7728000001AC /* ViewController.swift */,
 				D1043CA0253F7728000001AC /* Main.storyboard */,
+				D1F38C072543B2C900FEF4A8 /* TBC.swift */,
+				D1F38C0C2543B36000FEF4A8 /* CoffeesTVC.swift */,
+				D1F38C1C2543B87100FEF4A8 /* CoffeesTVcell.swift */,
+				D1F38C0F2543B3AC00FEF4A8 /* EvantsTVC.swift */,
+				D1F38C1F2543B89F00FEF4A8 /* EvantsTVcell.swift */,
+				D1F38C132543B3CD00FEF4A8 /* TeamsTVC.swift */,
+				D1F38C222543B8BC00FEF4A8 /* TeamsTVcell.swift */,
+				D1F38C182543B46600FEF4A8 /* AddTeamVC.swift */,
 				D1043CA3253F772A000001AC /* Assets.xcassets */,
 				D1043CA5253F772A000001AC /* LaunchScreen.storyboard */,
 				D1043CA8253F772A000001AC /* Info.plist */,
@@ -137,7 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F38C202543B89F00FEF4A8 /* EvantsTVcell.swift in Sources */,
+				D1F38C102543B3AC00FEF4A8 /* EvantsTVC.swift in Sources */,
 				D1043C9F253F7728000001AC /* ViewController.swift in Sources */,
+				D1F38C232543B8BC00FEF4A8 /* TeamsTVcell.swift in Sources */,
+				D1F38C0D2543B36000FEF4A8 /* CoffeesTVC.swift in Sources */,
+				D1F38C192543B46600FEF4A8 /* AddTeamVC.swift in Sources */,
+				D1F38C1D2543B87100FEF4A8 /* CoffeesTVcell.swift in Sources */,
+				D1F38C082543B2C900FEF4A8 /* TBC.swift in Sources */,
+				D1F38C142543B3CD00FEF4A8 /* TeamsTVC.swift in Sources */,
 				D1043C9B253F7728000001AC /* AppDelegate.swift in Sources */,
 				D1043C9D253F7728000001AC /* SceneDelegate.swift in Sources */,
 			);
